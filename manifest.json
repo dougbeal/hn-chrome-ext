@@ -1,0 +1,16 @@
+{
+   "content_scripts": [ {
+      "js": [ "jquery-1.3.2.min.js", "hacker_news_onepage.chrome.js" ],
+      "matches": [ "http://news.ycombinator.com/", "http://news.ycombinator.com/x?*", "http://news.ycombinator.com/news", "http://news.ycombinator.com/newest", "http://news.ycombinator.org/", "http://news.ycombinator.org/x?*", "http://news.ycombinator.org/news", "http://news.ycombinator.org/newest", "https://news.ycombinator.com/", "https://news.ycombinator.com/x?*", "https://news.ycombinator.com/news", "https://news.ycombinator.com/newest", "https://news.ycombinator.org/", "https://news.ycombinator.org/x?*", "https://news.ycombinator.org/news", "https://news.ycombinator.org/newest" ]
+   } ],
+   "description": "Provides users with the ability to browse Hacker News articles and comments without leaving the page.",
+   "icons": {
+      "128": "icon128.png",
+      "48": "icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCVsWmKZrorcg4LeJu6UpdMJh4km1zm6k7oh2aQN4N6vdXN9Ho0Yv391TRntQEywUJJXkVwpzc+Z1Fmh9SlsbQAQJaMKTfGUYVq4ugO5dVr6g4Q+2VnuEjr7B36ZOOvdezj7jiIq61eMQPIbGmSb+70WXazpGtkx64uSUx6SbayIwIDAQAB",
+   "manifest_version": 2,
+   "name": "Hacker News OnePage",
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "0.9.1"
+}
